@@ -6,13 +6,12 @@ function App() {
   return (
     <div> 
       <CustomButton count={count} setCount={setCount}></CustomButton>
-      <CustomButton count={count - 1} setCount={setCount}></CustomButton>
-      <CustomButton count={count + 1} setCount={setCount}></CustomButton>
     </div>
   )
 }
 
 // component
+// here props is a input state
 function CustomButton(props) {
 
   function onClickHandler() {
